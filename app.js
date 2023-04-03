@@ -46,7 +46,7 @@ mongoose.connect(URI, OPTIONS,(error)=>{
 })
 
 //routing implement
-app.use('/api',router)
+app.use('/api/v1',router)
 
 // Undefined Route Implement
 app.use("*",(req,res)=>{
